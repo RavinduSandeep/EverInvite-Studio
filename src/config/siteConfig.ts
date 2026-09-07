@@ -24,13 +24,13 @@ export const siteConfig = {
   /** The number customers call. Same line as WhatsApp. */
   phone: "+94 77 343 0233",
   /** Business email, shown on the contact page and used as the mailto fallback. */
-  email: "vaveentertainers@gmail.com",
+  email: "flowercartdecos@gmail.com",
 
   // ---- Social ------------------------------------------------------------
-  // Set a value to an empty string to hide that link. Empty until the
-  // studio accounts are live, so no icon points at a page that does not exist.
+  // Set a value to an empty string to hide that link. Instagram and TikTok
+  // stay empty until those accounts are live.
   instagram: "",
-  facebook: "",
+  facebook: "https://www.facebook.com/share/1Hup8fdPGF/",
   tiktok: "",
 
   // ---- Where and when ----------------------------------------------------
