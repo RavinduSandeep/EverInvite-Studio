@@ -29,7 +29,7 @@ export const invitations: InvitationSample[] = [
     thumbnail: "/images/invitations/minelli-sachintha-mobile.jpg",
     mobileScreenshot: "/images/invitations/minelli-sachintha-mobile.jpg",
     desktopScreenshot: "/images/invitations/minelli-sachintha-desktop.jpg",
-    liveUrl: "https://minelli-sachintha-weddinginvitation.vercel.app/",
+    liveUrl: "https://minelli-sachintha-invitation.vercel.app/",
     features: [
       "Animated envelope opening",
       "Personalised guest greeting",
@@ -58,7 +58,7 @@ export const invitations: InvitationSample[] = [
     thumbnail: "/images/invitations/amaya-dilshan-mobile.jpg",
     mobileScreenshot: "/images/invitations/amaya-dilshan-mobile.jpg",
     desktopScreenshot: "/images/invitations/amaya-dilshan-desktop.jpg",
-    // TODO: add the live URL here once this invitation is deployed.
+    liveUrl: "https://amaya-dilshan-invitation-eoah.vercel.app/",
     features: [
       "Wax seal envelope opening",
       "Self-drawing botanical corners",
@@ -87,7 +87,7 @@ export const invitations: InvitationSample[] = [
     thumbnail: "/images/invitations/sanduni-kavindu-mobile.jpg",
     mobileScreenshot: "/images/invitations/sanduni-kavindu-mobile.jpg",
     desktopScreenshot: "/images/invitations/sanduni-kavindu-desktop.jpg",
-    // TODO: add the live URL here once this invitation is deployed.
+    liveUrl: "https://sanduni-kavindu-invitation.vercel.app/",
     features: [
       "Drifting starfield background",
       "Turning ring animation",
@@ -116,7 +116,7 @@ export const invitations: InvitationSample[] = [
     thumbnail: "/images/invitations/ishara-tharindu-mobile.jpg",
     mobileScreenshot: "/images/invitations/ishara-tharindu-mobile.jpg",
     desktopScreenshot: "/images/invitations/ishara-tharindu-desktop.jpg",
-    // TODO: add the live URL here once this invitation is deployed.
+    liveUrl: "https://ishara-tharindu-invitation.vercel.app/",
     features: [
       "Swipe-to-open envelope",
       "Falling petal effect",
@@ -145,7 +145,7 @@ export const invitations: InvitationSample[] = [
     thumbnail: "/images/invitations/hansika-chamod-mobile.jpg",
     mobileScreenshot: "/images/invitations/hansika-chamod-mobile.jpg",
     desktopScreenshot: "/images/invitations/hansika-chamod-desktop.jpg",
-    // TODO: add the live URL here once this invitation is deployed.
+    liveUrl: "https://hansika-chamod-invitation.vercel.app/",
     features: [
       "Cracking wax seal opening",
       "Confetti celebration effect",
@@ -174,7 +174,7 @@ export const invitations: InvitationSample[] = [
     thumbnail: "/images/invitations/dinithi-lahiru-mobile.jpg",
     mobileScreenshot: "/images/invitations/dinithi-lahiru-mobile.jpg",
     desktopScreenshot: "/images/invitations/dinithi-lahiru-desktop.jpg",
-    // TODO: add the live URL here once this invitation is deployed.
+    liveUrl: "https://dinithi-lahiru-invitation.vercel.app/",
     features: [
       "Living ocean background",
       "Wave-shaped section dividers",
