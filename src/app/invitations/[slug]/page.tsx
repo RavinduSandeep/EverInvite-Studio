@@ -12,6 +12,7 @@ import Container from "@/components/ui/Container";
 import { Section, SectionHeading } from "@/components/ui/Section";
 import { ButtonLink } from "@/components/ui/Button";
 import PreviewButton from "@/components/invitations/PreviewButton";
+import LivePhonePreview from "@/components/invitations/LivePhonePreview";
 import InvitationCard from "@/components/invitations/InvitationCard";
 import ContactCta from "@/components/home/ContactCta";
 
@@ -128,24 +129,9 @@ export default async function InvitationPage({
               ) : null}
             </div>
 
-            {/* The invitation as guests actually see it. */}
+            {/* The invitation as guests actually see it: live in a phone when it is published. */}
             <div className="flex flex-wrap items-start gap-5">
-              <figure className="w-[220px] max-w-full shrink-0">
-                <div className="aspect-9/18 overflow-hidden rounded-[22px] border border-line bg-cream">
-                  <Image
-                    src={invitation.mobileScreenshot ?? invitation.thumbnail}
-                    alt={`${invitation.title} invitation shown on a phone`}
-                    width={373}
-                    height={807}
-                    priority
-                    sizes="220px"
-                    className="h-full w-full object-cover object-top"
-                  />
-                </div>
-                <figcaption className="mt-2 text-center font-mono text-xs text-ink-faint">
-                  mobile
-                </figcaption>
-              </figure>
+              <LivePhonePreview invitation={invitation} />
 
               {invitation.desktopScreenshot ? (
                 <figure className="min-w-[260px] flex-1">
