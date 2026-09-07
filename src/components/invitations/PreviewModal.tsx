@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import Image from "next/image";
 import { ExternalLink, Monitor, Smartphone, X } from "lucide-react";
 import type { InvitationSample } from "@/types";
@@ -103,7 +104,11 @@ export default function PreviewModal({
     return () => window.clearTimeout(timer);
   }, [hasLive, loaded, device]);
 
-  return (
+  // Rendered into <body>. The gallery card that opens this dialog animates
+  // with a transform on hover, and a transformed ancestor becomes the
+  // containing block for position: fixed, which would otherwise trap this
+  // dialog inside the card instead of covering the viewport.
+  return createPortal(
     <div
       className="fixed inset-0 z-70 flex flex-col bg-ink/70 backdrop-blur-sm"
       role="presentation"
@@ -257,6 +262,7 @@ export default function PreviewModal({
           </div>
         </div>
       </div>
-    </div>
+    </div>,
+    document.body,
   );
 }
