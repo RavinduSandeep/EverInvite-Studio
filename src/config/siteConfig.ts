@@ -19,22 +19,19 @@ export const siteConfig = {
     "We design interactive web invitations for weddings, engagements, homecomings, birthdays and celebrations of every kind. One link, opened on any phone, remembered long after the day.",
 
   // ---- Contact -----------------------------------------------------------
-  /**
-   * TODO: replace with your real WhatsApp number in full international form.
-   * Keep the leading "+" and the country code, for example "+94771234567".
-   * Until this is a real number the enquiry form falls back to email.
-   */
-  whatsappNumber: "+94XXXXXXXXX",
-  /** TODO: replace with the number you want customers to call. */
-  phone: "+94XXXXXXXXX",
-  /** TODO: replace with your business email address. */
-  email: "hello@example.com",
+  /** Full international form. Drives every wa.me link on the site. */
+  whatsappNumber: "+94 77 343 0233",
+  /** The number customers call. Same line as WhatsApp. */
+  phone: "+94 77 343 0233",
+  /** Business email, shown on the contact page and used as the mailto fallback. */
+  email: "vaveentertainers@gmail.com",
 
   // ---- Social ------------------------------------------------------------
-  // TODO: replace each handle. Set a value to an empty string to hide the link.
-  instagram: "https://instagram.com/your-handle",
-  facebook: "https://facebook.com/your-page",
-  tiktok: "https://tiktok.com/@your-handle",
+  // Set a value to an empty string to hide that link. Empty until the
+  // studio accounts are live, so no icon points at a page that does not exist.
+  instagram: "",
+  facebook: "",
+  tiktok: "",
 
   // ---- Where and when ----------------------------------------------------
   /** TODO: adjust if you want a more specific city or district. */
