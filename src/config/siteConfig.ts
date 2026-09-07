@@ -47,7 +47,7 @@ export const siteConfig = {
    * Used for canonical URLs, sitemap entries and social preview images.
    * No trailing slash.
    */
-  siteUrl: "https://everinvite-studio.vercel.app",
+  siteUrl: "https://ever-invite-studio.vercel.app",
 
   // ---- SEO ---------------------------------------------------------------
   seo: {
